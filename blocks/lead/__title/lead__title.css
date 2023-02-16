@@ -9,3 +9,13 @@
   margin-top: 56px;
   align-self: center;
 }
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 48px;
+  }
+}
+

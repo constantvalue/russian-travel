@@ -1,7 +1,23 @@
 .header {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-  width: calc(100vw - 96px);
   margin: 28px auto 0;
+
+}
+
+
+@media screen and (max-width: 320px) {
+  .header {
+      margin-top: 16px;
+      padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100vw - 48px);
+    margin: 28px 24px 0;
+  }
 }
