@@ -5,7 +5,7 @@
 	row-gap: 48px;
   grid-template-columns: 460px 1fr;
   grid-template-rows: auto;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
   /* grid-template-areas:
   "place__title place__website"
   "place__image place__paragraph"; */
@@ -13,4 +13,21 @@
 
 .place:last-child {
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: calc(100vw - 96px);
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: calc(100vw - 48px);
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+    margin-bottom: 73px;
+  }
 }
