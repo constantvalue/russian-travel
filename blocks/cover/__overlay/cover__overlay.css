@@ -5,7 +5,7 @@
   display: block;
   position: relative;
   text-decoration: none;
-  background-image: url(/images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -26,7 +26,7 @@
 	transition: 0.5s;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .cover__overlay {
     max-width: 100vw;
     padding: calc(195 * 100% / 1024) 0;
@@ -43,4 +43,4 @@
   .cover__overlay {
     padding: calc(33 * 100% / 320) 0;
   }
-}
+} */
