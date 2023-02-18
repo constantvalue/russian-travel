@@ -1,12 +1,12 @@
 .cover__overlay {
   margin: 0 auto;
-  max-width: calc(100% - 96px);
+  max-width: calc(1280px - 96px);
   padding: calc(245 * 100% / 1280) 0;
   display: block;
   position: relative;
   text-decoration: none;
   background-image: url(/images/cover-trains.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
