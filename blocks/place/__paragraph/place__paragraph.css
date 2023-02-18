@@ -2,10 +2,9 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   margin-bottom: 26px;
-  /* grid-area: place__paragraph; */
 }
 
 .place__paragraph:last-child {
@@ -16,11 +15,5 @@
   .place__paragraph {
     margin-bottom: 24.5px;
     font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .place__paragraph {
-   margin: 0 16px 25px;
   }
 }

@@ -7,21 +7,8 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .photo-grid__table {
-    gap: 14px 14px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .photo-grid__table {
-    gap: 16px 16px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .photo-grid__table {
     gap: 12px 12px;
   }
 }
-

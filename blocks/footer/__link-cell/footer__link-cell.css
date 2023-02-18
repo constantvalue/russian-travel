@@ -4,14 +4,11 @@
 
 .footer__link-cell:last-child {
   margin-right: 0;
+  margin-bottom: 0;
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 700px) {
   .footer__link-cell {
-   margin-bottom: 32px;
+    margin-bottom: 32px;
   }
 }
-
-.footer__link-cell:last-child {
-  margin-bottom: 0;
- }
