@@ -8,3 +8,8 @@
   margin-bottom: 12px;
 }
 
+@media screen and (max-width: 685px) {
+  .place__url-heading {
+    margin-left: 16px;
+  }
+}
